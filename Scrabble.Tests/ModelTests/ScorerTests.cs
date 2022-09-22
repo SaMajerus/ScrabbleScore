@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Calendar;
+using Scrabble;
 
-namespace Calendar.Tests
+namespace Scrabble.Tests
 {
   [TestClass]
-  public class LeapYearTests
+  public class ScorerTests
   {
     [TestMethod]
     public void IsLeapYear_NumberDivisibleByFour_True()
