@@ -17,12 +17,6 @@ namespace WordFilter.Models
       string inputArray = InputWord.ToUpper();  //At this website, see the section "Access Strings": https://www.w3schools.com/cs/cs_strings.php
       //Console.WriteLine(inputArray); //Confirm that 'inputArray' is formatted correctly.
       int score = 0;
-      // string[] one = new string[10] {"A", "E", "I", "O", "U", "L", "N", "R", "S", "T"};
-      // string[] two = new string[2] {"D", "G"};
-      // string[] three = new string[4] {"B", "C", "M", "P"};
-      // string[] four = new string[5] {"F", "H", "V", "W", "Y"};
-      // string[] five = new string[1] {"K"};
-      // string[] six = new string[2] {"J", "X"};
       
       for (int i=0; i<inputArray.Length; i++)
       {
@@ -51,7 +45,7 @@ namespace WordFilter.Models
           score += 8;
         } 
         else 
-        {  //For Q & Z
+        {  //For 'Q' & 'Z'
           score += 10;
         }
       }
